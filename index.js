@@ -11,10 +11,13 @@ module.exports = {
   rules: {
     // return await 사용 가능 - 디버깅시 콜스택 사라져서 힘듬
     "@typescript-eslint/return-await": "off",
+    // return await 사용 가능 - 디버깅시 콜스택 사라져서 힘듬
     "no-return-await": "off",
     'class-methods-use-this': 'off',
     // default export 안해도 okay
     'import/prefer-default-export': 'off',
+    // loop 에서 await 사용 가능
+    "no-await-in-loop": "off",
     // if 문 한줄에서도 {} 사용하도록 설정
     curly: ['error', 'all'],
   },
