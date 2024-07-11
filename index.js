@@ -3,7 +3,7 @@ module.exports = {
     browser: true,
     es6: true,
   },
-  extends: ['eslint:recommended', 'airbnb-base', 'plugin:drizzle/recommended'],
+  extends: ['eslint:recommended', 'airbnb-base'],
   parserOptions: {
     ecmaVersion: 12,
     sourceType: 'module',
